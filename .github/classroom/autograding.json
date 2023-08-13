@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-5-time-convert.cpp",
+      "run": "./a.out",
+      "input": "8",
+      "output": "8 days = 691200 seconds",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-5-time-convert.cpp",
+      "run": "./a.out",
+      "input": "27",
+      "output": "27 days = 2332800 seconds",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
